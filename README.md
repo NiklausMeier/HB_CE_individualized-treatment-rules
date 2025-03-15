@@ -1,21 +1,21 @@
-# Haemophilia B CE Microsimulation
+# Haemophilia B CE Microsimulation with Individualized Treatment Rules
 
 ## Description
 
 This repository contains the R code for a de novo cost-effectiveness microsimulation.  
 **Population:** Moderate-to-severe haemophilia B  
 **Intervention:** Etranacogene Dezaparvovec (ED)  
-**Comparator:** Prophylactic extended half-life factor IX (EHL-FIX)  
-**Outcomes:** Discounted life years, quality-adjusted life years, costs, incremental cost-effectiveness ratio, incremental net monetary benefit  
+**Comparator:** Prophylactic or on-demand extended half-life factor IX (EHL-FIX)  
+**Outcomes:** Discounted life years, quality-adjusted life years, costs, incremental cost-effectiveness ratio, incremental net monetary benefit
 
-A publication of the work based on this model has been accepted by PharmacoEconomics - Open and can be accessed at https://link.springer.com/article/10.1007/s41669-024-00480-z.
+A publication of some of the work based on this model has been accepted by PharmacoEconomics - Open and can be accessed at https://link.springer.com/article/10.1007/s41669-024-00480-z.
 
 I have uploaded the model with all required R code and data for the sake of transparency and as a resource for future modellers. 
 If interested, please feel free to develop the model further, e.g., by adding further treatment strategies, sources of costs, or other data sources.
 
 ## Installation
-These files can be downladed and then run by a suitable version of R. The model was mainly developed in R 4.2.1 but should be compatible with future versions, as long as the required packages do not change.  
-The following packages (and their dependencies) are required: ggplot2, RColorBrewer, pander, data.table, lookup, truncnorm, ggpubr, plyr, ggrepel, captioner, rmarkdown  
+These files can be downladed and then run by a suitable version of R. The model was mainly developed in R 4.2.1 and 4.3.1. but should be compatible with future versions, as long as the required packages do not change.  
+The following packages (and their dependencies) are required: 'ggplot2', 'RColorBrewer', 'pander', 'data.table', 'lookup', 'truncnorm', 'ggpubr', 'plyr','ggrepel', 'rmarkdown', 'kableExtra', 'mgcv', 'grf', 'policytree', 'rpart', 'rpart.plot', 'rattle', 'glmnet', 'fastDummies', 'DiagrammeRsvg', 'broom', 'flextable', 'scales', 'dplyr', 'MASS'
 These packages are installed and loaded in automatically when running the '00_master_file.R' script.  
 
 ## Usage
